@@ -1,0 +1,19 @@
+// arithmetic operations
+#include<stdio.h>
+int main()
+{
+    int a,b,sum,sub,multi,divi,mod;
+    printf("enter two numbers : ");
+    scanf("%d %d",&a,&b);//assign values
+    sum =a + b;//add two values
+    printf("sum=%d\n",sum);
+    sub =a-b;   //subract a &b
+    printf("sub=%d\n",sub);
+    multi =a*b; //multipky a&b
+    printf("multi=%d\n",multi);
+    divi=a/b;   //divied a & b
+    printf("divi=%d \n",divi);
+    mod=a%b;    //modulodivition of a&b
+    printf("mod=%d \n",mod);
+    return 0;
+}

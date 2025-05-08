@@ -1,0 +1,14 @@
+//print stars and greeting
+#include<stdio.h>
+void printstars(){
+    for (int i=1;i<=10;i++){
+        printf("*");
+}
+    printf("\n");
+}
+int main(){
+    
+    printstars();
+    printf("wellcome you!");
+    return 0;
+}

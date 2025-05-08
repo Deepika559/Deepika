@@ -1,0 +1,9 @@
+//power values
+#include<math.h>
+#include<stdio.h>
+int main()
+{
+    printf("square root of %lf is %lf\n",225.0,sqrt(225.0));//input is floting values 
+    printf("square root of %lf is %lf\n",789.0,sqrt(789.0));
+    return 0;
+}

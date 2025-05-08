@@ -1,0 +1,11 @@
+//ascii values
+#include<stdio.h>
+int main()
+{
+    int i=0;
+    printf("character \t ASCII Values");
+    for (i=35;i<=100;i++){
+     printf("%c \t\t %d",i,i);
+    }
+return 0;
+}

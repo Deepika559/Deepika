@@ -1,0 +1,13 @@
+//table 
+#include<stdio.h>
+int main(){
+  int a,b,c;
+  printf("Enter two values: ");
+  scanf("%d %d",&a,&b);
+  for(int a=1;a<=10;a++){
+        c=a*b;
+        printf("table is %d*%d=%d\n",a,b,c);
+      }
+  
+   return 0;
+}

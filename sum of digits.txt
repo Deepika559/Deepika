@@ -1,0 +1,14 @@
+//sum of digits
+#include<stdio.h>
+int main(){
+  int a,b=0,digit;
+  printf("Enter a value: ");
+  scanf("%d",&a);
+  while(a!=0){
+      digit=a%10;//45%10=45
+      b+=digit;//b=0+5=5
+      a/=10;//45/10=4
+  }
+  printf("sum of digits is= %d\n ",b);
+   return 0;
+}

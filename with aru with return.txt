@@ -1,0 +1,24 @@
+/*with aru with return
+function decleration*/
+#include<stdio.h>
+int multi(int a,int b);
+void greet();
+void printresult(int result);
+//main fun
+int main(){
+    int a=6,b=89;
+    greet();
+    int total=multi(6,89);
+    printresult(total);
+    return 0;
+}
+//function def
+int multi(int a,int b){
+return a*b;
+}
+void greet(){
+    printf("Hello!");
+}
+void printresult(int result){
+    printf("total is%d\n",result);
+}

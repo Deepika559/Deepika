@@ -1,0 +1,25 @@
+//grade program
+#include<stdio.h>
+int main()
+{int mark;
+printf("enter the your mark:");
+scanf("%d",&mark);
+if(mark>=90){
+    printf("your grade is 0\n");
+}else if(mark>=80){
+    printf("your grade is  A+\n");
+}else if(mark<=70){
+    printf("Your grade is A\n");
+}else if(mark>=80){
+    
+    printf("your grade is  A\n");
+}else if(mark>=60){
+    printf("your grade is  B+\n");
+}else if(mark>=50){
+    printf("your grade is  B\n");
+}else{
+    printf("fail \n");
+}
+
+return 0;
+}

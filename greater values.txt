@@ -1,0 +1,16 @@
+//greater values
+#include<stdio.h>
+int main(){
+  int a,b;
+  printf("Enter two values: ");
+  scanf("%d%d",&a,&b);
+  if(a<b){
+    printf("b is greater");
+ } else if(b<a){
+    printf("a is greater");
+  }else{
+      printf("both are equal");
+  }
+  
+   return 0;
+}

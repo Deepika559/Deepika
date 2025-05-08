@@ -1,0 +1,14 @@
+//swapping 
+#include<stdio.h>
+int main()
+{
+    int a,b,temp;
+    printf("enter two numbers :");
+    scanf("%d%d",&a,&b);//assign two inputs
+    
+    temp= a;//a value stored in temp
+    a=b;//b stored in a
+    b=temp;//tepm value stored in b
+    printf("after swapping: %d and %d",a,b);
+    return 0;
+}

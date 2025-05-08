@@ -1,0 +1,15 @@
+//if elseif else program
+#include<stdio.h>
+int main()
+{int number;
+printf("enter the value:");
+scanf("%d",&number);
+if(number>0){
+    printf("the number is positive.\n");
+}else if(number<0){
+    printf("number is negative.\n");
+}else{
+    printf("number is equal to 0.\n");
+}
+return 0;
+}

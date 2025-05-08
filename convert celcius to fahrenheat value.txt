@@ -1,0 +1,11 @@
+//convert celcius to fahrenheat values 
+#include<stdio.h>
+int main()
+{
+    int a,f;
+    printf("entertemperature :");
+    scanf("%d",&a);//assign two inputs
+    f=((a*9/5)+32);
+    printf("fahrenheat is %d",f);
+    return 0;
+}
