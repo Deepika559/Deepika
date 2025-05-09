@@ -1,0 +1,18 @@
+//print name dept roll number
+#include<stdio.h>
+struct student{
+    int rollnum;
+    char name[100];
+    char dept[10];
+    
+};
+int main (){
+    struct student s1={3,"deepika","bme"};
+    // name[100];
+    //dept[10];
+    //rollnum;
+    printf("rollnum :%d\n name :%s\n dept :%s\n",s1.rollnum,s1.name,s1.dept);
+    s1.rollnum = 5;
+    printf("rollnum :%d\n name :%s\n dept :%s\n",s1.rollnum,s1.name,s1.dept);
+    return 0;
+}
