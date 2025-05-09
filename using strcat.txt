@@ -1,0 +1,11 @@
+//using strcat
+#include<stdio.h>
+#include<string.h>//string file
+int main(){
+    
+    char str1[100]="Hello ";
+    char str2[50]="World";
+    strcat(str1,str2);//concordination of str1 and str2
+    printf("concordination is :%s\n",str1);
+    return 0;
+}
